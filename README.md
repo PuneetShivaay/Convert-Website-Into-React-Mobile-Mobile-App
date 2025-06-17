@@ -1,4 +1,3 @@
-> Edited for use in IDX on 07/09/12
 
 # Read Notes.txt file 👋
 
