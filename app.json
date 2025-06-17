@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "petmets-mobile-app",
-    "slug": "petmets-mobile-app",
+    "name": "otical",
+    "slug": "otical",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "petmetsmobileapp",
+    "scheme": "otical",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "otical.in"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +38,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "fb8cfe34-27ef-497d-82c2-45709e9a1657"
+      }
     }
   }
 }
